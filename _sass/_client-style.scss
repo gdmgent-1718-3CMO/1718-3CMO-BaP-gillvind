@@ -1,17 +1,17 @@
 
 .client-style {
   font-family: $clientfont-family-base;
-  $color: $clientcolor-1;
-  border-bottom: 1px solid $color-grey-2;
-  border-top: 1px solid $color-grey-2;
+  $color: $clientcolor-2;
+  border-bottom: 1px solid $color-grey-3;
+  border-top: 1px solid $color-grey-3;
   margin: 1em 0 2em;
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: $clientfont-family-title;
+    font-family: 'Quicksand', sans-serif;
   }
 
   a {
-    color: $clientcolor-5;
+    color: $clientcolor-3;
     &:hover {}
     &:active {}
     &:focus{}
@@ -19,4 +19,13 @@
 
   // …
   
+}
+
+.white{
+  background-color: $mycolor-5;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
 }

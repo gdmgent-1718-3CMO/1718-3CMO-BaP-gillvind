@@ -15,18 +15,29 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-weight: $font-weight-light;
-    font-size: 4rem;
-    color: $color-grey-2;
-}
-h2 {
-    font-weight: $font-weight-light;
+   
     font-size: 2rem;
     margin: 2rem 0 1rem;
+    color: $mycolor-1;
+}
+h2 {
+    
+    font-size: 2rem;
+    margin: 2rem 0 1rem;
+    color: $mycolor-5;
 }
 h3, h4, h5, h6 {
     font-size: 1rem;
     margin: 2rem 0 0;
+}
+
+h4 {
+    font-size: 17pt;
+    color:$mycolor-1;
+}
+p{
+    font-size:15pt;
+    text-align:20pt;
 }
 a {
     text-decoration: none;
@@ -39,7 +50,7 @@ a {
     }
     &:active{
         background-color: $body-link;
-        color: $color-white;
+        
     }
     &:focus{}
 }
@@ -80,7 +91,7 @@ main ol {
         padding: 3px 6px;
         margin-right: 5px;
         border-radius: 5px;
-        background-color: $mycolor-5;
+        background-color: $mycolor-3;
         color: $color-white;
         font-family: $myfont-family-title;
         font-weight: $font-weight-bold;

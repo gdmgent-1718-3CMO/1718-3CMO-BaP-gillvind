@@ -7,13 +7,17 @@
         }
         .navbar-collapse {
             width:100%;
+           
         }
         .dropdown-menu {
             position: static !important;
             width: 100%;
+            
         }
         .navbar-nav {
             width: 100%;
+            
+         
         }
         .nav-item {
             width: 100%;
@@ -21,6 +25,8 @@
         li.active .dropdown-menu {
             position: static !important;
             display: block  !important;
+            
+            
         }
      }
 
@@ -30,10 +36,20 @@
  --------------------------- */
  #toc {
     margin-bottom: 1em;
+    margin-top: 20pt;
+    font-size:10pt;
+    font-weight: bold;
+    margin-left: 0pt;
+ 
+
+  
     .nav {
         display: block;
+        text-decoration-line: none;
+        
     }
 
  } 
+
 
  
