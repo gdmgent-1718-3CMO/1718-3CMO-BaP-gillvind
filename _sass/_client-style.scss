@@ -1,7 +1,7 @@
 
 .client-style {
   font-family: $clientfont-family-base;
-  $color: $clientcolor-2;
+  $color: $clientcolor-1;
   border-bottom: 1px solid $color-grey-3;
   border-top: 1px solid $color-grey-3;
   margin: 1em 0 2em;
@@ -11,7 +11,7 @@
   }
 
   a {
-    color: $clientcolor-3;
+    color: $clientcolor-1;
     &:hover {}
     &:active {}
     &:focus{}
@@ -22,10 +22,20 @@
 }
 
 .white{
-  background-color: $mycolor-5;
+  
+  margin-bottom: 10PT;
 }
 
 img {
   vertical-align: middle;
   border-style: none;
+}
+
+.inhoudstafel{
+  background: $mycolor-1;
+  
+  text-align: center;
+
+
+
 }

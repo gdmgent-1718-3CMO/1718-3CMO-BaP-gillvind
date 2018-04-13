@@ -24,7 +24,7 @@ h2 {
     
     font-size: 2rem;
     margin: 2rem 0 1rem;
-    color: $mycolor-5;
+    color: $mycolor-3;
 }
 h3, h4, h5, h6 {
     font-size: 1rem;
@@ -41,15 +41,16 @@ p{
 }
 a {
     text-decoration: none;
-    color: $body-link;
+    color: white;
     border-bottom: dotted 1px $body-link;
     &:hover{
-        color: $body-link;
+        color: $mycolor-4;
         text-decoration: none;
         border-bottom: solid 1px $body-link;
+        font-family: $myfont-family-base;
     }
     &:active{
-        background-color: $body-link;
+        background-color: $mycolor-2;
         
     }
     &:focus{}
@@ -69,7 +70,7 @@ main ul {
     text-indent: -25px;
     &:before {
         content:'\2022';
-        color: $mycolor-5;
+        color: $mycolor-3;
         margin-right: 18px;
     }    
   }
@@ -85,14 +86,15 @@ main ol {
       padding-left: 25px;
       text-indent: -25px;
       margin-bottom: 0.5rem;
+      color:$mycolor-2;
       &:before {
         counter-increment: i;
         content: counter(i);    
         padding: 3px 6px;
         margin-right: 5px;
         border-radius: 5px;
-        background-color: $mycolor-3;
-        color: $color-white;
+        background-color: $mycolor-2;
+        color: $mycolor-3;
         font-family: $myfont-family-title;
         font-weight: $font-weight-bold;
       }    
