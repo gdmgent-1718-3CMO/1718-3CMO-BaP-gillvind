@@ -7,13 +7,13 @@
   permalink: /index 
   # fa-icon: icon-info
 
-- name: Logo
-  description: Logo
- #folder: pages/Logo/
-  permalink: Logo
+- name: logo
+  description: logo
+ #folder: logo/
+  permalink: logo
   # fa-icon: icon-graduation-cap
 
-- name: Kleur
+- name: kleur
   description: kleur
   #folder: kleur/
   permalink: kleur
