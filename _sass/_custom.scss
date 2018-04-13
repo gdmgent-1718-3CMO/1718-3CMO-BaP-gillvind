@@ -37,7 +37,12 @@ body {
 footer {
     background-color: $mycolor-3;
     color: $color-white;
+    text-align: center;
+    font-size: 8pt;
+   
+
     a {
+      margin:20pt;
         color: $color-white;
         &:hover {
             
